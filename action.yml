@@ -1,0 +1,3 @@
+name: 'Magento 2 Static Test'
+description: 'Run magento 2 static test in your repository'
+author: 'Shankar Konar'
