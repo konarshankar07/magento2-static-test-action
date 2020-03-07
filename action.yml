@@ -1,13 +1,6 @@
 name: 'Magento 2 Static Test'
 description: 'Run magento 2 static test in your repository'
 author: 'Shankar Konar'
-inputs:
-  myInput:
-    description: 'Input to use'
-    required: false
-    default: 'Shankar'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.myInput }}
