@@ -3,4 +3,4 @@
 echo "Running Magento2 PHP CodeSniffer"
 composer require --dev magento/magento-coding-standard
 vendor/bin/phpcs --config-set installed_paths ../../magento/magento-coding-standard/
-vendor/bin/phpcs --ignore=*/vendor/* --standard=Magento2 "$HOME"
+vendor/bin/phpcs --ignore=*/vendor/* --standard=Magento2 /home/runner/work/magento2-cms-hero-image
