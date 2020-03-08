@@ -17,5 +17,9 @@ jobs:
         uses: actions/checkout@master
 
       - name: Magento 2 Static Test
-        uses: konarshankar07/magento2-static-test-action@master
+        uses: konarshankar07/magento2-static-test-action@v1.0.0
 ```
+
+## Example Configuration
+
+Please click on this [link](https://github.com/konarshankar07/magento2-cms-hero-image/blob/master/.github/workflows/main.yml) to find the example configuration
