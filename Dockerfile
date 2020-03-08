@@ -7,8 +7,8 @@ LABEL maintainer="Shankar Konar <konar.shankar2013@gmail.com>"
 
 LABEL "com.github.actions.name"="GitHub Action for Magento2 Static Test"
 LABEL "com.github.actions.description"="A tool to enforce Magento2 coding style and conventions."
-LABEL "com.github.actions.icon"="shield"
-LABEL "com.github.actions.color"="orange"
+LABEL "com.github.actions.icon"="code"
+LABEL "com.github.actions.color"="red"
 
 COPY entrypoint.sh /entrypoint.sh
 RUN curl -sS https://getcomposer.org/installer | \
